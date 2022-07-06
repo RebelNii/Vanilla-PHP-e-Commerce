@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&family=Rubik&family=Tapestry&display=swap');
+
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Tapestry', cursive;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    color: #fff;
+    overflow: hidden;
+    background-color: rgb(15, 155, 101);
+    font-family: 'Roboto', sans-serif;;
+}
+
+/* Header */
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    color: #fff;
+    background: rgb(2, 73, 46);
+    height: 50px;
+    width: 100%;
+}
+
+header .head{
+    margin-right: 20px;
+}
+
+header .head a{
+    color: #fff;
+}
+
+header .logs a{
+    color: #fff;
+}
+
+header a{
+    text-decoration: none;
+}
+/* endHeader */
+
+/* Nav Bar */
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding: 10px;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-right: 30px;
+}
+
+.nav ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#nav-btn {
+    padding: 0.8em 1.8em;
+    border: 2px solid #17C3B2;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #17C3B2;
+   }
+   
+   #nav-btn::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #17C3B2;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   #nav-btn:hover::before {
+    width: 105%;
+   }
+   
+   #nav-btn:hover {
+    color: #111;
+   }
+/* End of NavBar */
+
+
+main .php{
+    margin-top: 2rem;
+}
+
+
+
+/*insert.php css*/
+/* Form-insert.php */
+body{
+    height: 100vh;
+    width: 100%;
+   
+}
+
+
+.form{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.forms{
+    margin-bottom: 5px;
+    width: 50%;
+}
+
+/* endForm */

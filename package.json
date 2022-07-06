@@ -1,0 +1,14 @@
+{
+  "name": "myshop",
+  "version": "1.0.0",
+  "description": "an e-commerce project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rebel nii",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}
